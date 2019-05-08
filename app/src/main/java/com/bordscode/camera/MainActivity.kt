@@ -63,8 +63,6 @@ class MainActivity : AppCompatActivity() {
         intent.type = "image/*"
         intent.action = Intent.ACTION_GET_CONTENT
         startActivityForResult(Intent.createChooser(intent, "Select Image"), SELECT_PICTURE)
-
-
     }
 
     fun takePicture() {
